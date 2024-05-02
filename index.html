@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhiraj's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="header-data">
+            <nav class="header-navbar">
+                <img src="dj name logo.png" height="100px" width="250px" >
+                <div class="header-links">
+                    <div><a href="#header"> Home </a></div>
+                    <div><a href="#about"> About</a></div>
+                    <div><a href="#project"> Projects</a></div>
+                    <div><a href="#myskills"> MySkills</a></div>
+                    <div><a href="#contact"> Contacts</a></div>
+                    <div></div>
+                </div>
+            </nav>
+            <!--This is our profile section-->
+            <div class="intro-div">
+
+                <h1>Hello, It's Me <span> Dhiraj Jagtap</span><br> From Latur</h1>
+                <h3>And I'm a <span class="text"></span></h3>
+            </div>
+        </div>
+    </div>
+    <!--This is About Section Start-->
+    <div id="about">
+        <div class="about-data">
+            <div class="about-row">
+                <div class="about-row-column1" >
+                    <img src="my_profile-removebg-preview.png" width="100%" height="400px" >
+                </div>
+                <div class="about-row-column2">
+                    <h1> About me...!</h1>
+                    <p>Hello, I'm Dhiraj Jagtap.I'm from Latur I have completed my diploma in Mechanical Engineering at
+                        Rajiv Gandhi collage of polytechnic, Latur.
+                    </p>
+                
+                    <div class="about-link-container" >
+                        <div class="about-link active-link" onclick="openBox('skills')">Skills</div>
+                        <div class="about-link"  onclick="openBox('education')">Education</div>
+                        <div class="about-link " onclick="openBox('experience')">Experience</div>
+                        <div class="about-link " onclick="openBox('certificate')">Certification</div>
+                    </div>
+                    <div class="about-link-data active-box"  id="skills">
+                        <ul>
+                            <li><span> Full-stack Developer</span><br>
+                                Devlopmanet and Hosting of WebApps
+                            </li>
+                            <li><span> BackEnd Development</span><br>
+                                Django | Python
+                            </li>
+                            <li><span> FrontEnd Development</span><br>
+                                HTML | CSS | JavaScript
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-link-data " id="education">
+                        <ul>
+                            <li><span> Diploma(ME)</span>
+                                MSBTE Board
+                            </li>
+                            <li><span> 10th</span>
+                                VMV Latur
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-link-data" id="experience">
+                        <ul>
+                            <li><span> Intern At Adhyayan It Traning And Placement</span>
+                                Dec 2023 - March 2024
+                            </li>
+                            <li><span> Intern At Lighthouse Warje</span>
+                                Sep 2023 -  Dec 2023
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-link-data" id="certificate">
+                        <ul>
+                            <li><span> Certificate 1</span>
+                                C Language
+                            </li>
+                            <li><span> Certificate 2</span>
+                                C++ Language
+                            </li>
+                            <li><span> Certificate 3</span>
+                                Python full-stack with ReactJS
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project">
+        <div class="project-data">
+            <h1>My Projects </h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>Project 1</h2>
+                    <p>Calculator App....<br>
+                    My Calculator app base on core python and Duration is 4hrs. You can do every Opration like +,-,*,/.
+                    <br>Technology: Python  <br> </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-address-book"></i>
+                    <h2>Project 2</h2>
+                    <p> Contact App...<br>Duration 5 hrs. <br> Technology: Python <br> Information: You can save Any Contact number and also Update ,Delete
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Project 3</h2>
+                    <p>lapKart App...<br> Technology: Python with Django ,HTML ,CSS ,JavaScript <br>
+                    Duration: 3 Days <br> Information : This App Create For Online Laptops Selling Perpose</p>
+                    <a href="https://dhiraj361.pythonanywhere.com/laptops/show/" target="_blank"><i class="fa-regular fa-folder-open" style="margin-right: 5px;"></i>Show Project</a>
+                </div>
+               </div>
+
+        </div>
+
+    </div>
+    <!-- My Skills-->
+    <div id="myskills">
+        <h1 class="sub-title" >
+            My <span>Skills</span>
+        </h1>
+    </div>
+    <section>
+        <div class="myskills">
+            <div class="container1" >
+                <h1 class="heading1"> Technical Skills</h1>
+                <div class="technical-bars">
+                    <div class="bar"><i style="color: #c95d2e;" class="fa-brands fa-html5"></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #147bbc;" class="fa-brands fa-css3-alt"></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #b0bc1e;" class="fa-brands fa-js"></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #dcd618;" class="fa-brands fa-python"></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #69bcbc;" class="fa-brands fa-react"></i>
+                    <div class="info">
+                        <span>ReactJS</span>
+                    </div>
+                    <div class="progress-line reactjs">
+                        <span></span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        
+
+            <!-- Professional skills-->
+            <div class="container2" id="myskills" >
+                <h1 class="heading1">Professional skills</h1>
+                <div class="radial-bars">
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100"cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>  
+                        </svg>
+                        <div class="parcentage">90%</div>
+                        <div class="text">Creativity</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100"cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>  
+                        </svg>
+                        <div class="parcentage">85%</div>
+                        <div class="text">Communication</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100"cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>  
+                        </svg>
+                        <div class="parcentage">75%</div>
+                        <div class="text">Problem Solving</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100"cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>  
+                        </svg>
+                        <div class="parcentage">80%</div>
+                        <div class="text">Teamwork</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact-->
+    <div id="contact">
+        <div class="contact-data">
+            <div class="contact-row">
+                <div class="row-left-colum">
+                    <h1 id="contactheading">Contact Me.!</h1>
+                    <p><i class="fa-solid fa-envelope"></i>dhirajjagtap361@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7517552295</p>
+                    <div class="social-media-icons">
+                        <a href="https://www.linkedin.com/in/dhiraj-jagtap-075974208/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/+917517552295"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/_dhiraj_jagtap_official_26?igsh=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://github.com/dhiraj8396" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <div class="resume-button" >
+                        <a href="Dhiraj Jagtap Resume - Google Docs.pdf" target="_blank" download="download">Download Resume</a>
+                    </div>
+                </div>
+                <div class="row-right-colum">
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" name="yourname" autocomplete="off" placeholder="Your name" required>
+                        <input type="email" name="email" autocomplete="off"  placeholder="Your Email" required>
+                        <textarea name="message" id="" cols="6" rows="10" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Submit" id="submit-button">
+                    </form>
+                    <span id="confirm-submit"></span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div id="copyright">
+        <p>@copyright made by Dhiraj Jagtap with <i class="fa-solid fa-heart"></i> </p>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var typed = new Typed(".text", {
+                strings: ["Frontend Developer", "Backend Developer", "Python Developer"],
+                typeSpeed: 40,
+                backSpeed: 50,
+                startDelay: 700,
+                loop: true
+            });
+        });
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
