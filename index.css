@@ -18,8 +18,7 @@ body
 {
     background-image: url("my\ Background.jpg");
     position: relative;
-    height: 700px;
-     background-attachment: fixed; 
+    height: 700px; 
     background-size:cover;
     background-position: center;
 }
