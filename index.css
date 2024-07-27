@@ -370,7 +370,7 @@ body
 }
 .progress-line.python span
 {
-    width: 50%;
+    width: 85%;
 }
 .progress-line.reactjs span
 {
@@ -403,7 +403,7 @@ body
 }
 .progress-line.python span::after
 {
-    content: "50%";
+    content: "85%";
 }
 .progress-line.reactjs span::after
 {
